@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.btnCropAndSaveClicked() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "croppedImage.size">
+            </PersistentString>
+            <PersistentString
+               value = "scrollView.contentInset">
+            </PersistentString>
+            <PersistentString
+               value = "CROP_WINDOW_HEIGHT">
+            </PersistentString>
+            <PersistentString
+               value = "scrollView.contentOffset">
+            </PersistentString>
+            <PersistentString
+               value = "processedImage.size">
+            </PersistentString>
+            <PersistentString
+               value = "screenSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C16D2A291C46872C003EDB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D2A281C46872C003EDB9E /* AppDelegate.swift */; };
+		C16D2A2B1C46872C003EDB9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D2A2A1C46872C003EDB9E /* ViewController.swift */; };
+		C16D2A2E1C46872C003EDB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16D2A2C1C46872C003EDB9E /* Main.storyboard */; };
+		C16D2A301C46872C003EDB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16D2A2F1C46872C003EDB9E /* Assets.xcassets */; };
+		C16D2A331C46872C003EDB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16D2A311C46872C003EDB9E /* LaunchScreen.storyboard */; };
+		C16D2A3D1C47DF51003EDB9E /* nature.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C16D2A3C1C47DF51003EDB9E /* nature.jpeg */; };
+		C16D2A3F1C480240003EDB9E /* square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C16D2A3E1C480240003EDB9E /* square.jpg */; };
+		C16D2A411C480357003EDB9E /* squareVerySmallImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C16D2A401C480357003EDB9E /* squareVerySmallImage.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C16D2A251C46872C003EDB9E /* Image Cropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Cropper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16D2A281C46872C003EDB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C16D2A2A1C46872C003EDB9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C16D2A2D1C46872C003EDB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C16D2A2F1C46872C003EDB9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C16D2A321C46872C003EDB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C16D2A341C46872C003EDB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16D2A3C1C47DF51003EDB9E /* nature.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nature.jpeg; sourceTree = "<group>"; };
+		C16D2A3E1C480240003EDB9E /* square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = square.jpg; sourceTree = "<group>"; };
+		C16D2A401C480357003EDB9E /* squareVerySmallImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = squareVerySmallImage.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C16D2A221C46872C003EDB9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C16D2A1C1C46872C003EDB9E = {
+			isa = PBXGroup;
+			children = (
+				C16D2A271C46872C003EDB9E /* Image Cropper */,
+				C16D2A261C46872C003EDB9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C16D2A261C46872C003EDB9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C16D2A251C46872C003EDB9E /* Image Cropper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C16D2A271C46872C003EDB9E /* Image Cropper */ = {
+			isa = PBXGroup;
+			children = (
+				C16D2A3E1C480240003EDB9E /* square.jpg */,
+				C16D2A401C480357003EDB9E /* squareVerySmallImage.jpg */,
+				C16D2A3C1C47DF51003EDB9E /* nature.jpeg */,
+				C16D2A281C46872C003EDB9E /* AppDelegate.swift */,
+				C16D2A2A1C46872C003EDB9E /* ViewController.swift */,
+				C16D2A2C1C46872C003EDB9E /* Main.storyboard */,
+				C16D2A2F1C46872C003EDB9E /* Assets.xcassets */,
+				C16D2A311C46872C003EDB9E /* LaunchScreen.storyboard */,
+				C16D2A341C46872C003EDB9E /* Info.plist */,
+			);
+			path = "Image Cropper";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C16D2A241C46872C003EDB9E /* Image Cropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16D2A371C46872C003EDB9E /* Build configuration list for PBXNativeTarget "Image Cropper" */;
+			buildPhases = (
+				C16D2A211C46872C003EDB9E /* Sources */,
+				C16D2A221C46872C003EDB9E /* Frameworks */,
+				C16D2A231C46872C003EDB9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Image Cropper";
+			productName = "Image Cropper";
+			productReference = C16D2A251C46872C003EDB9E /* Image Cropper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C16D2A1D1C46872C003EDB9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = maxhaii;
+				TargetAttributes = {
+					C16D2A241C46872C003EDB9E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UCXG9HGSN2;
+					};
+				};
+			};
+			buildConfigurationList = C16D2A201C46872C003EDB9E /* Build configuration list for PBXProject "Image Cropper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C16D2A1C1C46872C003EDB9E;
+			productRefGroup = C16D2A261C46872C003EDB9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C16D2A241C46872C003EDB9E /* Image Cropper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C16D2A231C46872C003EDB9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16D2A331C46872C003EDB9E /* LaunchScreen.storyboard in Resources */,
+				C16D2A301C46872C003EDB9E /* Assets.xcassets in Resources */,
+				C16D2A411C480357003EDB9E /* squareVerySmallImage.jpg in Resources */,
+				C16D2A3F1C480240003EDB9E /* square.jpg in Resources */,
+				C16D2A3D1C47DF51003EDB9E /* nature.jpeg in Resources */,
+				C16D2A2E1C46872C003EDB9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C16D2A211C46872C003EDB9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16D2A2B1C46872C003EDB9E /* ViewController.swift in Sources */,
+				C16D2A291C46872C003EDB9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C16D2A2C1C46872C003EDB9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16D2A2D1C46872C003EDB9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C16D2A311C46872C003EDB9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16D2A321C46872C003EDB9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C16D2A351C46872C003EDB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C16D2A361C46872C003EDB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C16D2A381C46872C003EDB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Image Cropper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxhaii.Image-Cropper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C16D2A391C46872C003EDB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Image Cropper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxhaii.Image-Cropper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C16D2A201C46872C003EDB9E /* Build configuration list for PBXProject "Image Cropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16D2A351C46872C003EDB9E /* Debug */,
+				C16D2A361C46872C003EDB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C16D2A371C46872C003EDB9E /* Build configuration list for PBXNativeTarget "Image Cropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16D2A381C46872C003EDB9E /* Debug */,
+				C16D2A391C46872C003EDB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C16D2A1D1C46872C003EDB9E /* Project object */;
+}
